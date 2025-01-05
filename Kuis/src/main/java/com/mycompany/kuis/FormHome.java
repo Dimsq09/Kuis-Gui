@@ -254,7 +254,7 @@ public class FormHome extends FormMenu {
 
     public void refreshTable() {
     // Gunakan DataHandler untuk mengambil data
-    DataHandler dataHandler = new DataHandler();
+    Data dataHandler = new Data();
     List<String[]> dataList = dataHandler.ambilData(currentUsername);
 
     // Buat model tabel baru

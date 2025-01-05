@@ -12,7 +12,7 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class DataHandler {
+public class Data {
 
     private static final String DATA_FOLDER = "data";
 

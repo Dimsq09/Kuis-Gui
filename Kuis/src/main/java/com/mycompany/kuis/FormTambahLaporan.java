@@ -19,11 +19,11 @@ public class FormTambahLaporan extends javax.swing.JFrame {
      * Creates new form FormPemasukan
      */
     final private String currentUsername;
-    private DataHandler dataHandler; // Deklarasi variabel dataHandler
+    private Data dataHandler; // Deklarasi variabel dataHandler
 
     public FormTambahLaporan(String username) {
         this.currentUsername = username; // Simpan username
-        this.dataHandler = new DataHandler(); // Inisialisasi DataHandler
+        this.dataHandler = new Data(); // Inisialisasi DataHandler
         initComponents();
     }
 

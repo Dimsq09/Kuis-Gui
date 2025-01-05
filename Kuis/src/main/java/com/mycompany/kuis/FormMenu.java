@@ -179,7 +179,7 @@ public class FormMenu extends javax.swing.JFrame {
                     JOptionPane.WARNING_MESSAGE);
 
             if (confirmation == JOptionPane.YES_OPTION) {
-                DataHandler dataHandler = new DataHandler();
+                Data dataHandler = new Data();
                 boolean isDeleted = dataHandler.hapusData(currentUsername, itemNameToDelete);
 
                 if (isDeleted) {
